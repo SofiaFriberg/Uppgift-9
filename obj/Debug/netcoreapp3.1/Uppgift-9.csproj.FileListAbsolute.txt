@@ -1,0 +1,13 @@
+C:\Users\sofia\OneDrive\Skrivbord\Git Uppgift 9\Uppgift-9\bin\Debug\netcoreapp3.1\Uppgift-9.exe
+C:\Users\sofia\OneDrive\Skrivbord\Git Uppgift 9\Uppgift-9\bin\Debug\netcoreapp3.1\Uppgift-9.deps.json
+C:\Users\sofia\OneDrive\Skrivbord\Git Uppgift 9\Uppgift-9\bin\Debug\netcoreapp3.1\Uppgift-9.runtimeconfig.json
+C:\Users\sofia\OneDrive\Skrivbord\Git Uppgift 9\Uppgift-9\bin\Debug\netcoreapp3.1\Uppgift-9.runtimeconfig.dev.json
+C:\Users\sofia\OneDrive\Skrivbord\Git Uppgift 9\Uppgift-9\bin\Debug\netcoreapp3.1\Uppgift-9.dll
+C:\Users\sofia\OneDrive\Skrivbord\Git Uppgift 9\Uppgift-9\bin\Debug\netcoreapp3.1\Uppgift-9.pdb
+C:\Users\sofia\OneDrive\Skrivbord\Git Uppgift 9\Uppgift-9\obj\Debug\netcoreapp3.1\Uppgift-9.csprojAssemblyReference.cache
+C:\Users\sofia\OneDrive\Skrivbord\Git Uppgift 9\Uppgift-9\obj\Debug\netcoreapp3.1\Uppgift-9.AssemblyInfoInputs.cache
+C:\Users\sofia\OneDrive\Skrivbord\Git Uppgift 9\Uppgift-9\obj\Debug\netcoreapp3.1\Uppgift-9.AssemblyInfo.cs
+C:\Users\sofia\OneDrive\Skrivbord\Git Uppgift 9\Uppgift-9\obj\Debug\netcoreapp3.1\Uppgift-9.csproj.CoreCompileInputs.cache
+C:\Users\sofia\OneDrive\Skrivbord\Git Uppgift 9\Uppgift-9\obj\Debug\netcoreapp3.1\Uppgift-9.dll
+C:\Users\sofia\OneDrive\Skrivbord\Git Uppgift 9\Uppgift-9\obj\Debug\netcoreapp3.1\Uppgift-9.pdb
+C:\Users\sofia\OneDrive\Skrivbord\Git Uppgift 9\Uppgift-9\obj\Debug\netcoreapp3.1\Uppgift-9.genruntimeconfig.cache
