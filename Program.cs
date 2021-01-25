@@ -112,11 +112,18 @@ namespace Uppgift_9
 
 
                     }
-
+                    Console.WriteLine("\n Scoreboard:     Player: " + pointsPlayer + "p." + "     Computer: " + pointsComputer +"p.");
                     
-
-
                 }
+                if (pointsPlayer == 3)
+                {
+                    Console.WriteLine("Congratulations! YOU ARE THE WINNER!");
+                }
+                else if (pointsComputer == 3)
+                {
+                    Console.WriteLine("I WON!! *the wiinnneer taaakes iit aaall*");
+                }
+
 
 
 
