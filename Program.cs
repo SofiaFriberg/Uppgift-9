@@ -21,7 +21,7 @@ namespace Uppgift_9
 
                 while (pointsPlayer < 3 && pointsComputer < 3)
                 {
-                    Console.WriteLine("Choose between ROCK, PAPER and SCISSORS");
+                    Console.WriteLine("Choose between ROCK (r), PAPER (p) and SCISSORS (s)");
                     inputPlayer = Console.ReadLine();
                     inputPlayer = inputPlayer.ToUpper();
 
@@ -36,16 +36,16 @@ namespace Uppgift_9
                             inputComputer = "ROCK";
                             Console.WriteLine("I choose ROCK");
 
-                            if (inputPlayer == "ROCK")
+                            if (inputPlayer == "ROCK" || inputPlayer == "R" || inputPlayer == "r")
                             {
                                 Console.WriteLine("Damnit! It'a a draw!");
                             }
-                            else if (inputPlayer == "PAPER")
+                            else if (inputPlayer == "PAPER" || inputPlayer == "P" || inputPlayer == "p")
                             {
                                 Console.WriteLine("YOU WON!");
                                 pointsPlayer++;
                             }
-                            else if(inputPlayer == "SCISSORS")
+                            else if(inputPlayer == "SCISSORS" || inputPlayer == "S" || inputPlayer == "s" )
                             {
                                 Console.WriteLine("HA! I WON!");
                                 pointsComputer++;
@@ -61,16 +61,16 @@ namespace Uppgift_9
                             inputComputer = "PAPER";
                             Console.WriteLine("I choose PAPER");
 
-                            if (inputPlayer == "PAPER")
+                            if (inputPlayer == "PAPER" || inputPlayer == "P" || inputPlayer == "p")
                             {
                                  Console.WriteLine("Damnit! It'a a draw!");
                             }
-                            else if (inputPlayer == "SCISSORS")
+                            else if (inputPlayer == "SCISSORS" || inputPlayer == "S" || inputPlayer == "s")
                             {
                                 Console.WriteLine("YOU WON!");
                                 pointsPlayer++;
                             }
-                            else if (inputPlayer == "ROCK")
+                            else if (inputPlayer == "ROCK" || inputPlayer == "R" || inputPlayer == "r")
                             {
                                 Console.WriteLine("HA! I WON!");
                                 pointsComputer++;
@@ -85,16 +85,16 @@ namespace Uppgift_9
 
                             inputComputer = "SCISSORS";
                             Console.WriteLine("I choose SCISSORS");
-                            if (inputPlayer == "SCISSORS")
+                            if (inputPlayer == "SCISSORS" || inputPlayer == "S" || inputPlayer == "s")
                             {
                                  Console.WriteLine("Damnit! It'a a draw!");
                             }
-                            else if (inputPlayer == "ROCK")
+                            else if (inputPlayer == "ROCK" || inputPlayer == "R" || inputPlayer == "r")
                             {
                                 Console.WriteLine("YOU WON!");
                                 pointsPlayer++;
                             }
-                            else if (inputPlayer == "PAPER")
+                            else if (inputPlayer == "PAPER" || inputPlayer == "P" || inputPlayer == "p")
                             {
                                 Console.WriteLine("HA! I WON!");
                                 pointsComputer++;
@@ -125,11 +125,19 @@ namespace Uppgift_9
                 }
 
 
-
-
             }
-
-
+            Console.WriteLine("Do you want to play again? (y/n)");
+            string continueChar = Console.ReadLine();
+            if (continueChar == "y" || continueChar == "Y")
+            {
+                playAgain = true;
+                Console.Clear();
+            }
+            else if (continueChar == "n" || continueChar == "N")
+            {
+                playAgain = false;
+                Console.WriteLine("Welcome back another time then!");
+            }
 
             Console.ReadKey();
         }
