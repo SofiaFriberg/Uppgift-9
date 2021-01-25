@@ -36,17 +36,19 @@ namespace Uppgift_9
                             inputComputer = "ROCK";
                             Console.WriteLine("I choose ROCK");
 
-                            if ()
+                            if (inputPlayer == "ROCK")
                             {
-                                
+                                Console.WriteLine("Damnit! It'a a draw!");
                             }
-                            else if ()
+                            else if (inputPlayer == "PAPER")
                             {
-                                
+                                Console.WriteLine("YOU WON!");
+                                pointsPlayer++;
                             }
-                            else if()
+                            else if(inputPlayer == "SCISSORS")
                             {
-
+                                Console.WriteLine("HA! I WON!");
+                                pointsComputer++;
                             }
                             else
                             {
@@ -59,17 +61,19 @@ namespace Uppgift_9
                             inputComputer = "PAPER";
                             Console.WriteLine("I choose PAPER");
 
-                            if ()
+                            if (inputPlayer == "PAPER")
                             {
-                                
+                                 Console.WriteLine("Damnit! It'a a draw!");
                             }
-                            else if ()
+                            else if (inputPlayer == "SCISSORS")
                             {
-                                
+                                Console.WriteLine("YOU WON!");
+                                pointsPlayer++;
                             }
-                            else if ()
+                            else if (inputPlayer == "ROCK")
                             {
-
+                                Console.WriteLine("HA! I WON!");
+                                pointsComputer++;
                             }
                             else
                             {
@@ -81,17 +85,19 @@ namespace Uppgift_9
 
                             inputComputer = "SCISSORS";
                             Console.WriteLine("I choose SCISSORS");
-                            if ()
+                            if (inputPlayer == "SCISSORS")
                             {
-                                
+                                 Console.WriteLine("Damnit! It'a a draw!");
                             }
-                            else if ()
+                            else if (inputPlayer == "ROCK")
                             {
-                                
+                                Console.WriteLine("YOU WON!");
+                                pointsPlayer++;
                             }
-                            else if ()
+                            else if (inputPlayer == "PAPER")
                             {
-                                
+                                Console.WriteLine("HA! I WON!");
+                                pointsComputer++;
                             }
                             else
                             {
